@@ -1,0 +1,140 @@
+\documentclass[a4paper]{MagicalCV}
+
+% Original Template: https://www.overleaf.com/latex/templates/magicalcv/ybfgdrchrrxj
+
+% Removing page numbers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+
+% Change the geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Defining your colors
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-purple}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% Justify
+\usepackage{ragged2e}
+
+% start document
+\begin{document}
+
+% Last update time
+\lastupdated
+
+% Title name
+
+\hfill \break
+
+\namesection{Marius}{Maftei}{
+\phone{+40753480293} \email{\href{mailto:mariusmaftei999@gmail.com}{mariusmaftei999@gmail.com}}}
+
+
+
+
+% ----==== FIRST COLUMN ====---- %
+\begin{minipage}[t]{0.38\textwidth} 
+
+
+% Education
+\cvsection{Education} 
+
+\includegraphics[height=4mm]{uaic.jpg} 
+\runsubsection{Alexandru Ioan Cuza \\ University} \\
+\descript{Bachelor's Degree in Computer Science}
+\cvevent{Sept 2021 - Present}{Romania, Iași} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Second year
+\sectionsep
+
+\includegraphics[height=4mm]{cuza.png} 
+\runsubsection{Alexandru Ioan Cuza High School}
+\\ \descript{Math \& Computer Science}
+\cvevent{Sep 2017 - May 2021}{Romania, Iași}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Grade: 9.06
+\sectionsep
+
+% Links
+\cvsection{Links}
+
+\github{GitHub} \href{https://github.com/mariusmafteiv}{\bf mariusmafteiv} \\
+\linkedin{Linkedin} \href{https://www.linkedin.com/in/mariusmafteiv/}{\bf mariusmafteiv}
+\sectionsep
+
+% Volunteering
+\cvsection{Volunteering}
+\subsection{\href{https://www.asii.ro/}{ASII}}
+\cvevent{Oct 2021 - Dec 2022}{Romania, Iași}
+Graphic Designer.
+Made thematic design for "Bal de caritate" 2021.
+Made posters, and flyers for projects like FII Practic, FiiCode etc.
+\sectionsep
+
+\subsection{\href{https://www.facebook.com/AsociatiaPSTI}{APSTI}}
+\cvevent{Sep 2022 - Present}{Romania, Iași}
+Helped with charitable activities. I am the association designer and also help with photographing and recording.
+\sectionsep
+
+% ----==== SECOND COLUMN ====---- %
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.59\textwidth} 
+
+% Skills
+\cvsection{Skills}
+
+\subsection{Experienced In}
+Data Structures \textbullet{} Object-Oriented Programming \textbullet{} Advanced Programming
+\sectionsep
+
+\subsection{Programming Languages}
+Java \textbullet{} C/C++ \textbullet{} HTML \textbullet{} CSS \textbullet{} C\#
+\sectionsep
+
+\subsection{Technologies}
+Git
+\sectionsep
+
+\subsection{ADOBE}
+Adobe Photoshop \textbullet{} Adobe Illustrator \textbullet{} Adobe PremierePro
+\sectionsep
+
+\subsection{MICROSOFT OFFICE SUITE}
+Microsoft Word \textbullet{} Microsoft Excel \textbullet{} Microsoft PowerPoint
+\sectionsep
+
+% Soft Skills
+\cvsection{Soft Skills} \\
+Self Learner \textbullet{} Critical Thinking \textbullet{} Teamwork
+\sectionsep
+
+% About Me
+\cvsection{About Me}
+\\
+My name is Maftei Marius - Vasilică, I am 20 years old and currently studying Computer Science. I am a teenager eager to learn more about programming. I usually spend my leisure time going on walks and meditating or listening to podcasts. I like participating in volunteer activities. I like to get challenged and get out of my comfort zone and an example would be in high school where I managed to be vice president for CSE ( Consiliul Școlar al Elevilor ) and developed the skill to talk to huge crowds. I like learning new skills and recently I have been interested in exploring different languages so I started learning Spanish online.
+
+
+\end{minipage} 
+
+\end{document}  
