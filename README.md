@@ -1,1 +1,1 @@
-# informations
+# Repository created for personal info
